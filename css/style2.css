@@ -1,0 +1,98 @@
+.content {
+    padding: 48px 0 96px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.up-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 24px;
+    width: 417px;
+    height: 310px;
+    padding: 24px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+
+.card-avatar-wrapper {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-change-avatar {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: -50%;
+    cursor: pointer;
+    transform: translate(-100%, -50%);
+}
+
+.card-title {
+    font-size: 28px;
+    line-height: 110%;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: #000000
+}
+
+.card-subtitle {
+    font-size: 18px;
+    line-height: 120%;
+    margin: 0;
+    margin-top: 6px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.card-connection {
+    width: 270px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.card-connection-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    height: 21px;
+}
+
+.card-connection-block:nth-child(1) {
+    margin-top: 0;
+    padding-right: 27px;
+}
+
+.card-connection-block:nth-child(3) {
+    padding-right: 23px;
+}
+
+.card-connection-title {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.card-connection-value {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+}
