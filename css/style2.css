@@ -96,3 +96,51 @@
     line-height: 120%;
     color: #000000;
 }
+
+.manager {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    width: 417px;
+    height: 99px;
+    padding: 13.5px 32px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+
+.manager-info {
+    margin-left: 24px;
+    width: 130px;
+    height: 47px;
+}
+
+.manager-info-name {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.manager-info-post {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #F0BA30;
+}
+
+.manager-reverse {
+    margin-left: 20px;
+}
+
+.manager-telegram {
+    margin-left: 12px;
+    margin-top: -2.5px;
+}
