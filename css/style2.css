@@ -494,12 +494,13 @@ th:nth-child(9) {
 th:nth-child(10) {
     width: 86px;
     border-radius: 0 6px 0 0;
+    border-width: 1px 1px 0px 1px;
 }
 
 td {
     height: 38px;
     background: #FFFFFF;
-    border-width: 1px 1px 0px 1px;
+    border-width: 1px 0px 0px 1px;
     border-style: solid;
     border-color: #E4E4E4;
     border-radius: 0px;
@@ -514,7 +515,7 @@ td {
 }
 
 tr:last-child td {
-    border-width: 1px 1px 1px 1px;
+    border-width: 1px 0px 1px 1px;
 }
 
 tr:last-child td:last-child {
@@ -544,6 +545,7 @@ td:nth-child(4) {
 
 td:last-child {
     background: rgba(119, 119, 119, 0.7);
+    border-width: 1px 1px 0px 1px;
 }
 
 
