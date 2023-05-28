@@ -143,20 +143,26 @@
                           <img src="images/personal-area/area-info/telegram.svg" alt="telegram icon">
                         </a>
                     </div>
-                    <div class="area-info-complaint button-complaint">Заполнить рекламацию</div>
+                    <button class="area-info-complaint button-complaint">Заполнить рекламацию</button>
                 </div>
 
                 <div class="area-date">
-                    <div class="area-date-tabs">
-                        <button class="button-tab button-tab-1">Покрыто</button>
-                        <button class="button-tab button-tab-1">Долг</button>
+                    <div class="left-block">
+                      <div class="area-date-tabs">
+                        <button class="button-tab button-tab-1 button-tab_active" data-tab="#tab-1">Покрыто</button>
+                        <button class="button-tab button-tab-1" data-tab="#tab-2">Долг</button>
                     </div>
-                    <h2 class="text-H2 title-date">Данные по отгрузке</h2>
+                    <h2 class="text-H2 title-date">Данные <br> по отгрузке</h2>
                     <div class="area-date-description">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                         Velit officia consequat duis enim velit mollit. 
                     </div>
-                    <div class="area-date-topical">Актуально на 22.05.2023</div>
+                    <button class="area-date-topical">Актуально на 22.05.2023</button>
+                    </div>
+                    <div class="rigth-block">
+                      <img class="tab-diagram tab-diagram_active" id="tab-1" src="images/personal-area/area-info/diagram-1.png" alt="first diagram image">
+                      <img class="tab-diagram" id="tab-2" src="images/personal-area/area-info/diagram-2.png" alt="second diagram image">
+                    </div>
                 </div>
 
             </div>
@@ -252,5 +258,7 @@
         </div>
     
     </footer>
+
+    <script src="js/main2.js"></script>
 </body>
 </html>

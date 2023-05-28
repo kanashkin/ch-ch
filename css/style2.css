@@ -4,6 +4,7 @@
 
 .title {
     margin: 0;
+    margin-bottom: 24px;
 }
 
 .up-block {
@@ -11,8 +12,9 @@
     justify-content: space-between;
 }
 
+/* AREA-INFO */
+
 .card {
-    margin-top: 24px;
     width: 417px;
     height: 310px;
     padding: 24px 0;
@@ -138,6 +140,7 @@
 
 .manager-reverse {
     margin-left: 20px;
+    cursor: pointer;;
 }
 
 .manager-telegram {
@@ -153,6 +156,7 @@
     opacity: 0.3;
     border: 2px solid #181818;
     border-radius: 15px;
+    cursor: pointer;
     /* Текст кнопки */
     font-family: 'PF DinText Pro';
     font-style: normal;
@@ -161,4 +165,103 @@
     line-height: 130%;
     text-align: center;
     color: #181818;
+}
+
+/* AREA-DATE */
+
+.area-date {
+    display: flex;
+    justify-content: space-between;
+    width: 856px;
+    height: 497px;
+    background-color: #fff;
+    border: 2px solid #E4E4E4;
+    border-radius: 20px;
+    padding: 10px 10px 10px 32px;
+}
+
+.area-date-tabs {
+    margin-top: 23px;
+    padding: 5.5px 4.5px;
+    width: 204px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-tab {
+    border-radius: 100px;
+    border: none;
+    background: none;
+    height: 31px;
+    cursor: pointer;
+    /* Текст кнопки */
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgba(18, 18, 18, 0.8);
+    opacity: 0.8;
+    text-align: center;
+}
+
+.button-tab_active {
+    background: #F0BA30;
+    font-weight: 400;
+    color: #121212
+}
+
+.button-tab-1 {
+    width: 107px;
+}
+
+.button-tab-2 {
+    width: 83px;
+}
+
+.title-date {
+    margin: 0;
+    margin-top: 45px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.area-date-description {
+    margin-top: 40px;
+    width: 277px;
+    height: 72px;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(18, 18, 18, 0.8);
+}
+
+.area-date-topical {
+    margin-top: 115px;
+    width: 244px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #F0BA30;
+    border-radius: 40px;
+    /* Текст кнопки */
+    text-align: center;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #121212;
+}
+
+.tab-diagram {
+    display: none;
+}
+
+.tab-diagram_active {
+    display: block;
 }
