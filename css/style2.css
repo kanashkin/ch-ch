@@ -1,3 +1,7 @@
+html {
+    line-height: normal;
+}
+
 .content {
     padding: 48px 0 96px 0;
 }
@@ -6,6 +10,8 @@
     margin: 0;
     margin-bottom: 24px;
 }
+
+/* UP-BLOCK */
 
 .up-block {
     display: flex;
@@ -180,7 +186,7 @@
     padding: 10px 10px 10px 32px;
 }
 
-.area-date-tabs {
+.up-tab-block {
     margin-top: 23px;
     padding: 5.5px 4.5px;
     width: 204px;
@@ -191,7 +197,7 @@
     justify-content: space-between;
 }
 
-.button-tab {
+.up-button-tab {
     border-radius: 100px;
     border: none;
     background: none;
@@ -208,17 +214,17 @@
     text-align: center;
 }
 
-.button-tab_active {
+.up-button-tab_active {
     background: #F0BA30;
     font-weight: 400;
     color: #121212
 }
 
-.button-tab-1 {
+.up-button-tab-1 {
     width: 107px;
 }
 
-.button-tab-2 {
+.up-button-tab-2 {
     width: 83px;
 }
 
@@ -265,3 +271,133 @@
 .tab-diagram_active {
     display: block;
 }
+
+/* DOWN-BLOCK */
+
+.down-block {
+    margin-top: 24px;
+    width: 100%;
+    padding: 42px 32px;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+}
+
+.down-tab-block {
+    display: flex;
+    gap: 20px;
+}
+
+.down-button-tab {
+    height: 46px;
+    padding: 10px 20px;
+    border: none;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 100px;
+    cursor: pointer;
+    /* Текст кнопки */
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #777777;
+}
+
+.down-button-tab_active {
+    background: #F0BA30;
+    color: #121212;
+}
+
+.info-block {
+    display: none;
+}
+
+.info-block_active {
+    display: block;
+}
+
+.loyalty, .shipment {
+    margin-top: 40px;
+}
+
+.dealer {
+    margin-top: 64px;
+}
+
+.finance {
+    margin-top: 48px;
+}
+
+.info-title {
+    margin: 0;
+    color: #121212;
+}
+
+.gray-text {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+}
+
+.info-description {
+    margin: 0;
+    margin-top: 24px;
+    width: 808px;
+}
+
+.info-list {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 24px;
+}
+.info-list-item {
+    list-style-type: none;
+    position: relative;
+    margin-left: 24px;
+}
+
+.info-list-item:before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    left: -24px;
+    color: #F0BA30;
+    content: url('../images/personal-area/down-block/point.svg');
+}
+
+.dealer-wrapper {
+    display: flex;
+    gap: 125px
+}
+
+.dealer .info-description {
+    width: 554px;
+    margin-bottom: 14px;
+}
+
+.download-block {
+    width: 143px;
+}
+
+.download-link {
+    display: block;
+    height: 143px;
+}
+
+.download-name {
+    margin-top: 16px;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #121212;
+}
+
+
+

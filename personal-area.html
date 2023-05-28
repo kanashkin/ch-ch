@@ -32,7 +32,7 @@
     
                 <li class="text-body-text-2 menu-item"><a class="menu-link" href="#">О компании</a></li>
     
-                <li class="text-body-text-2 menu-item current"><a class="menu-link" href="#">Контакты</a></li>
+                <li class="text-body-text-2 menu-item"><a class="menu-link" href="#">Контакты</a></li>
     
                 <li class="text-body-text-2 menu-item"><a class="menu-link" href="#">Документация</a></li>
     
@@ -101,7 +101,7 @@
         </div>
     
     </header>
-    <!-- Убрать активность у контактов, присвоить личному кабинету -->
+    <!-- Присвоить активность личному кабинету -->
     <main class="content">
         <div class="container">
 
@@ -112,8 +112,8 @@
                 <div class="area-info">
                     <div class="area-info-card card">
                         <div class="card-avatar-wrapper">
-                            <img class="card-avatar" src="images/personal-area/area-info/card-avatar.png" alt="area avatar image">
-                            <img class="card-change-avatar" src="images/personal-area/area-info/card-change-avatar.svg" alt="change area avatar icon">
+                            <img class="card-avatar" src="images/personal-area/up-block/card-avatar.png" alt="area avatar image">
+                            <img class="card-change-avatar" src="images/personal-area/up-block/card-change-avatar.svg" alt="change area avatar icon">
                         </div>
                         <h2 class="text-H2 card-title">Николай Иванов</h2>
                         <h3 class="text-H3 card-subtitle">ООО “Звезда”</h3>
@@ -133,14 +133,14 @@
                         </div>
                     </div>
                     <div class="area-info-manager manager">
-                        <img class="manager-avatar" src="images/personal-area/area-info/manager-avatar.png" alt="manager avatar image">
+                        <img class="manager-avatar" src="images/personal-area/up-block/manager-avatar.png" alt="manager avatar image">
                         <div class="manager-info">
                             <div class="manager-info-name">Иван Петров</div>
                             <div class="manager-info-post">Персональный менеджер</div>
                         </div>
-                        <img class="manager-reverse" src="images/personal-area/area-info/reverse.svg" alt="reverse icon">
+                        <img class="manager-reverse" src="images/personal-area/up-block/reverse.svg" alt="reverse icon">
                         <a class="manager-telegram" href="#">
-                          <img src="images/personal-area/area-info/telegram.svg" alt="telegram icon">
+                          <img src="images/personal-area/up-block/telegram.svg" alt="telegram icon">
                         </a>
                     </div>
                     <button class="area-info-complaint button-complaint">Заполнить рекламацию</button>
@@ -148,23 +148,94 @@
 
                 <div class="area-date">
                     <div class="left-block">
-                      <div class="area-date-tabs">
-                        <button class="button-tab button-tab-1 button-tab_active" data-tab="#tab-1">Покрыто</button>
-                        <button class="button-tab button-tab-1" data-tab="#tab-2">Долг</button>
+                      <div class="up-tab-block">
+                        <button class="up-button-tab up-button-tab-1 up-button-tab_active" data-tab="#up-tab-1">Покрыто</button>
+                        <button class="up-button-tab up-button-tab-1" data-tab="#up-tab-2">Долг</button>
                     </div>
                     <h2 class="text-H2 title-date">Данные <br> по отгрузке</h2>
-                    <div class="area-date-description">
+                    <p class="area-date-description">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                         Velit officia consequat duis enim velit mollit. 
-                    </div>
+                    </p>
                     <button class="area-date-topical">Актуально на 22.05.2023</button>
                     </div>
                     <div class="rigth-block">
-                      <img class="tab-diagram tab-diagram_active" id="tab-1" src="images/personal-area/area-info/diagram-1.png" alt="first diagram image">
-                      <img class="tab-diagram" id="tab-2" src="images/personal-area/area-info/diagram-2.png" alt="second diagram image">
+                      <img class="tab-diagram tab-diagram_active" id="up-tab-1" src="images/personal-area/up-block/diagram-1.png" alt="first diagram image">
+                      <img class="tab-diagram" id="up-tab-2" src="images/personal-area/up-block/diagram-2.png" alt="second diagram image">
                     </div>
                 </div>
 
+            </div>
+
+            <div class="down-block">
+              <div class="down-tab-block">
+                <button class="down-button-tab down-button-tab_active" data-tab="#down-tab-1">Программа лояльности</button>
+                <button class="down-button-tab" data-tab="#down-tab-2">Правила отгрузки</button>
+                <button class="down-button-tab" data-tab="#down-tab-3">Заказы и Финансы</button>
+                <button class="down-button-tab" data-tab="#down-tab-4">Дилерский договор</button>
+              </div>
+              <div class="info-block loyalty info-block_active" id="down-tab-1">
+                <h2 class="text-H2 info-title">Программа лояльности</h2>
+                <p class="info-description gray-text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet:
+                </p>
+                <ul class="info-list">
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                </ul>
+              </div>
+              <div class="info-block shipment" id="down-tab-2">
+                <h2 class="text-H2 info-title">Правила отгрузки</h2>
+                <p class="info-description gray-text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet:
+                </p>
+                <ul class="info-list">
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                  <li class="info-list-item gray-text">Amet minim mollit non deserunt ullamco est;</li>
+                </ul>
+              </div>
+              <div class="info-block finance" id="down-tab-3">
+                <h2 class="text-H2 info-title">Финансы</h2>
+                <p class="info-description gray-text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet. 
+                </p>
+              </div>
+              <div class="info-block dealer" id="down-tab-4">
+                <div class="dealer-wrapper">
+                  <div class="left-block">
+                    <h2 class="text-H2 info-title">Дилерский договор</h2>
+                    <p class="info-description gray-text">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                      Velit officia consequat duis enim velit mollit.
+                      Exercitation veniam consequat sunt nostrud amet. 
+                    </p>
+                  </div>
+                  <div class="right-block">
+                    <div class="download-block">
+                      <a class="download-link" href="#" download="">
+                        <img src="images/personal-area/down-block/download.svg" alt="download icon">
+                      </a>
+                      <div class="download-name">Договор</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
         </div>
