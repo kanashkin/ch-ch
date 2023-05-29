@@ -24,5 +24,19 @@ const tabs = (btnSelector, contentSelector, btnActiveSelector, contentActiveSele
     });
 }
 
+const activeNumber = (itemsSelector, itemActiveSelector) => {
+    const items = document.querySelectorAll(itemsSelector)
+
+    items.forEach(item => {
+        item.addEventListener('click', (e) => {
+            items.forEach(item => {
+                item.classList.remove(itemActiveSelector)
+            })
+            e.target.classList.add(itemActiveSelector)
+        })
+    })
+}
+
 tabs('.up-button-tab', '.tab-diagram', 'up-button-tab_active', 'tab-diagram_active')
 tabs('.down-button-tab', '.info-block', 'down-button-tab_active', 'info-block_active')
+activeNumber('.table-item', 'table-item_active')

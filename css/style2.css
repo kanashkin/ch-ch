@@ -427,6 +427,76 @@ html {
     justify-content: space-between;
 }
 
+.table-search {
+    width: 196px;
+    background: #E4E4E4;
+    border-radius: 6px;
+    border-bottom: 1px solid #E4E4E4;
+    height: 380px;
+}
+
+.table-head {
+    height: 38px;
+    background: #989898;
+    border-width: 1px 1px 0 1px;
+    border-radius: 6px 6px 0 0;
+    border-style: solid;
+    border-color: #E4E4E4;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 14px;
+    color: #FFFFFF;
+}
+
+.table-items {
+    height: 342px;
+    overflow: auto;
+    direction: rtl;
+}
+
+.table-item {
+    height: 38px;
+    width: 190px;
+    background: #fff;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #E4E4E4;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 14px;
+    color: rgba(18, 18, 18, 0.8);
+    cursor: pointer;
+}
+
+.table-item_active {
+    background: #F0BA30;
+    font-weight: 500;
+}
+
+.table-item:last-child {
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0 0 6px 6px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: url('../images/personal-area/down-block/thumb.svg');
+    background-repeat: no-repeat;
+    background-position: 0.5px right;
+    background-size: contain;
+}
+
 table{
     border-spacing: 0px;
     height: 380px;
@@ -498,7 +568,7 @@ th:nth-child(10) {
 }
 
 td {
-    height: 38px;
+    height: 33px;
     background: #FFFFFF;
     border-width: 1px 0px 0px 1px;
     border-style: solid;
@@ -520,6 +590,7 @@ tr:last-child td {
 
 tr:last-child td:last-child {
     border-radius: 0 0 6px 0;
+    border-width: 1px 1px 0px 1px;
 }
 
 tr:last-child td:first-child {
