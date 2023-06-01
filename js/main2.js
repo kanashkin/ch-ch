@@ -16,6 +16,16 @@ const tabs = (btnSelector, contentSelector, btnActiveSelector, contentActiveSele
                 tabsContent.forEach(function(item) {
                     item.classList.remove(contentActiveSelector);
                 });
+
+                if (currentContent.classList.contains('finance')) {
+                    document.querySelector('.down-block').classList.add('down-block_finance_active')
+                } else if (
+                        currentContent.classList.contains('loyalty')
+                        || currentContent.classList.contains('shipment')
+                        || currentContent.classList.contains('dealer')
+                        ) {
+                    document.querySelector('.down-block').classList.remove('down-block_finance_active')
+                }
         
                 currentBtn.classList.add(btnActiveSelector);
                 currentContent.classList.add(contentActiveSelector)

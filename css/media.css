@@ -1,0 +1,519 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1116px;
+    }
+    .area-info {
+        max-width: 356px;
+    }
+    .card {
+        height: 271px;
+    }
+    .card-avatar-wrapper {
+        width: 87px;
+        height: 87px;
+    }
+    .card-change-avatar {
+        width: 32px;
+        height: 32px;
+    }
+    .card-title {
+        font-size: 24px;
+        margin-top: 8.5px;
+    }
+    .card-connection {
+        margin-top: 8.5px;
+        width: 232px;
+        height: 64px;
+    }
+    .card-connection-block {
+        height: 16px;
+        margin-top: 8px;
+    }
+    .card-connection-block:nth-child(1) {
+        padding-right: 23.89px;
+    }
+    .card-connection-block:nth-child(3) {
+        padding-right: 20.75px;
+    }
+    .card-connection-title {
+        font-size: 12px;
+        line-height: 110%;
+    }  
+    .card-connection-value {
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .manager {
+        margin-top: 12px;
+        height: 84px;
+        padding: 11.27px 24px;
+    }
+    .manager-avatar {
+        width: 61.47px;
+        height: 61.47px;
+    }
+    .manager-info {
+        margin-left: 18px;
+        height: 44px;
+    }
+    .manager-info-name {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .manager-info-post {
+        line-height: 110%;
+    }
+    .manager-reverse {
+        margin-left: 16.57px;
+        width: 35.86px;
+        height: 35.86px;
+    }
+    .manager-telegram {
+        margin-left: 10.25px;
+        margin-top: 0;
+        width: 35.86px;
+        height: 35.86px;
+    }
+    .button-complaint {
+        margin-top: 12px;
+        height: 48px;
+        /* Текст кнопки */
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .area-date {
+        width: 736px;
+        height: 427px;
+        padding: 8.5px 8.5px 11px 24px;
+    }
+    .up-tab-block {
+        margin-top: 15.5px;
+        padding: 5px 4px;
+        width: 174px;
+        height: 36px;
+    }
+    .up-button-tab {
+        height: 26.24px;
+        /* Текст кнопки */
+        font-size: 13.5px;
+    }
+    .up-button-tab-1 {
+        width: 91px;
+    } 
+    .up-button-tab-2 {
+        width: 70px;
+    }
+    .title-date {
+        margin-top: 36px;
+        text-transform: none;
+    }
+    .area-date-description {
+        margin-top: 24px;
+        width: 236.31px;
+        line-height: 140%;
+    }
+    .area-date-topical {
+        margin-top: 81px;
+        width: 207px;
+        height: 42px;
+        /* Текст кнопки */;
+        font-size: 16px;
+    }
+    .tab-diagram {
+        width: 424px;
+        height: 406.94px;
+    }
+    .down-block-wrapper {
+        margin-top: 36px;
+        padding: 36px 24px;
+    }
+    .info-block {
+        margin-top: 42px;
+    }
+    .finance-search {
+        margin-top: 54px;
+        width: 168.78px;
+        height: 33.58px;
+    }
+    .table-block {
+        margin-top: 12px;
+    }
+    .table-search {
+        width: 168px;
+        height: 327.22px;
+    }
+    .table-head, .table-item {
+        font-weight: 400;
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    table {
+        width: 871.44px;
+        height: 327.22px;
+    }
+    th {
+        padding-left: 10.33px;
+        font-size: 10.3333px;
+    }
+    td {
+        padding-left: 10.33px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 696px
+    }
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .area-info {
+        max-width: 216px;
+    }
+    .card {
+        height: 177px;
+        padding: 18px 0;
+    }
+    .card-avatar-wrapper {
+        width: 52px;
+        height: 52px;
+    }
+    .card-change-avatar {
+        width: 19.12px;
+        height: 19.12px;
+    }
+    .card-title {
+        font-size: 18px;
+        margin-top: 6px;
+        line-height: 100%;
+    }
+    .card-subtitle {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 0;
+    }
+    .card-connection {
+        margin-top: 6px;
+        width: 153px;
+        height: 36px;
+    }
+    .card-connection-block {
+        height: 10px;
+        margin-top: 3px;
+    }
+    .card-connection-block:nth-child(1) {
+        padding-right: 15px;
+    }
+    .card-connection-block:nth-child(3) {
+        padding-right: 13px;
+    }
+    .card-connection-title, .card-connection-value {
+        font-size: 8px;
+        line-height: 130%;
+    } 
+    .manager {
+        height: 54px;
+        padding: 8.4px 16px;
+    }
+    .manager-avatar {
+        width: 37.21px;
+        height: 37.21px;
+    }
+    .manager-info {
+        margin-left: 6px;
+        height: 24px;
+        width: 86px;
+    }
+    .manager-info-name {
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .manager-info-post {
+        margin-top: 2px;
+        font-size: 8px;
+        line-height: 100%;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .manager-reverse {
+        margin-left: 8.39px;
+        width: 21.7px;
+        height: 21.7px;
+    }
+    .manager-telegram {
+        margin-left: 3px;
+        width: 21.7px;
+        height: 21.7px;
+    }
+    .button-complaint {
+        height: 32px;
+        border: 1.03349px solid #181818;
+        border-radius: 9.07936px;
+        /* Текст кнопки */
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .area-date {
+        width: 456px;
+        height: 287px;
+        padding: 6px 6px 6px 18px;
+    }
+    .up-tab-block {
+        margin-top: 12px;
+        padding: 1.83px 1.73px;
+        width: 108px;
+        height: 20px;
+    }
+    .up-button-tab {
+        height: 16.34px;
+        /* Текст кнопки */
+        font-size: 8px;
+    }
+    .up-button-tab-1 {
+        width: 59px;
+    } 
+    .up-button-tab-2 {
+        width: 42.37px;
+    }
+    .title-date {
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .area-date-description {
+        margin-top: 16px;
+        width: 153px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .area-date-topical {
+        border: 1.05713px solid #F0BA30;
+        margin-top: 49px;
+        width: 156px;
+        height: 26px;
+        /* Текст кнопки */;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .tab-diagram {
+        width: 260px;
+        height: 271px;
+    }
+    .down-block-wrapper {
+        padding: 12px 18px;
+    }
+    .down-block {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .down-block_finance_active {
+        overflow-x: auto;
+    }
+    .down-block_finance_active::-webkit-scrollbar {
+        height: 4px;
+        border-radius: 20px;
+        background-color: #E1E1E1;
+    }
+
+    .down-block_finance_active::-webkit-scrollbar-thumb {
+        background-image: url('../images/personal-area/down-block/thumb-2.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .down-tab-block {
+        gap: 18px;
+    }
+    .down-button-tab {
+        width: 179px;
+        height: 36px;
+        font-size: 14px;
+        line-height: 140%;
+        white-space: nowrap;
+    }
+    .info-block {
+        margin-top: 24px;
+    }
+    .info-title {
+        font-size: 20px;
+    }
+    .info-description {
+        width: 620px;
+    }
+    .gray-text {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .dealer-wrapper {
+        gap: 38.45px
+    }
+    .dealer .info-description {
+        width: 366px;
+        margin-bottom: 0;
+    } 
+    .download-block {
+        width: 83.55px;
+        height: 83.55px;
+    }
+    .download-link {
+        height: 100%;
+    }
+    .download-name {
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .finance {
+        width: 1060px;
+    }
+    .table-search {
+        white-space: nowrap;
+    }
+    table {
+        white-space: nowrap;
+    }
+    tr:nth-child(9) td {
+        white-space: normal;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+        padding: 0 12px;
+    }
+    .up-block {
+        display: block;
+    }
+    .area-info {
+        max-width: 100%;
+    }
+    .card {
+        height: 222px;
+        padding: 24px 0;
+    }
+    .card-avatar-wrapper {
+        width: 70px;
+        height: 70px;
+    }
+    .card-change-avatar {
+        width: 26.2px;
+        height: 26.2px;
+    }
+    .card-title {
+        margin-top: 12px;
+    }
+    .card-connection {
+        margin-top: 12px;
+        width: 165px;
+        height: 45px;
+    }
+    .card-connection-block {
+        height: 12px;
+    }
+    .card-connection-title, .card-connection-value {
+        font-size: 9px;
+    }
+    .manager {
+        height: 75px;
+        padding: 0 16px;
+        justify-content: center;
+    }
+    .manager-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .manager-info {
+        margin-left: 12px;
+        height: 33px;
+        width: 86px;
+    }
+    .manager-info-name {
+        font-size: 14px;
+        line-height: 140%;
+        text-align: left;
+    }
+    .manager-info-post {
+        margin-top: 3px;
+        line-height: 130%;
+    }
+    .manager-reverse {
+        margin-left: 48px;
+        width: 30px;
+        height: 30px;
+    }
+    .manager-telegram {
+        margin-left: 8.5px;
+        width: 30px;
+        height: 30px;
+    }
+    .button-complaint {
+        height: 42px;
+        border-radius: 12.07936px;
+    }
+    .area-date {
+        margin-top: 36px;
+        width: auto;
+        max-width: 100%;
+        height: 500px;
+        height: auto;
+        display: block;
+        padding: 24px 6px 6px 6px;
+    }
+    .up-tab-block {
+        margin-top: 0;
+        margin-left: 14px;
+        padding: 1px 2.11px;
+        width: 108px;
+        height: 20px;
+    }
+    .up-button-tab {
+        height: 18px;
+        /* Текст кнопки */
+        font-size: 8px;
+    }
+    .up-button-tab-1 {
+        width: 54px;
+    } 
+    .up-button-tab-2 {
+        width: 42.37px;
+    }
+    .title-date {
+        margin-top: 19px;
+        margin-left: 12px;
+    }
+    .area-date-description {
+        margin-top: 12px;
+        margin-left: 12px;
+        width: 245px;
+        line-height: 130%;
+    }
+    .area-date-topical {
+        margin-top: 12px;
+        margin-left: 12px;
+        width: 156px;
+        height: 26px;
+        /* Текст кнопки */;
+        font-size: 12px;
+        border: 1.05713px solid #F0BA30;
+    }
+    .tab-diagram {
+        margin-top: 22px;
+        width: 100%;
+        height: auto;
+    }
+    .down-button-tab {
+        width: 159px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 130%;
+        padding: 7px 20px;
+    }
+    .info-description {
+        width: 100%;
+    }
+}
