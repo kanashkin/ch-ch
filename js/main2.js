@@ -47,6 +47,13 @@ const activeNumber = (itemsSelector, itemActiveSelector) => {
     })
 }
 
+const textBlockSize = () => {
+    if (window.innerWidth <= 768) {
+        document.querySelector('.finance .info-description').style.width = window.innerWidth - 70 + 'px'
+    }
+}
+
 tabs('.up-button-tab', '.tab-diagram', 'up-button-tab_active', 'tab-diagram_active')
 tabs('.down-button-tab', '.info-block', 'down-button-tab_active', 'info-block_active')
 activeNumber('.table-item', 'table-item_active')
+textBlockSize()

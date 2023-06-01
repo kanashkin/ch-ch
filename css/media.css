@@ -303,14 +303,13 @@
         width: 260px;
         height: 271px;
     }
+
     .down-block-wrapper {
         padding: 12px 18px;
     }
     .down-block {
         padding-top: 12px;
         padding-bottom: 12px;
-    }
-    .down-block_finance_active {
         overflow-x: auto;
     }
     .down-block_finance_active::-webkit-scrollbar {
@@ -409,14 +408,14 @@
     }
     .card-connection {
         margin-top: 12px;
-        width: 165px;
+        width: 190px;
         height: 45px;
     }
     .card-connection-block {
         height: 12px;
     }
     .card-connection-title, .card-connection-value {
-        font-size: 9px;
+        font-size: 10px;
     }
     .manager {
         height: 75px;
@@ -442,7 +441,7 @@
         line-height: 130%;
     }
     .manager-reverse {
-        margin-left: 48px;
+        margin-left: 37px;
         width: 30px;
         height: 30px;
     }
@@ -515,5 +514,19 @@
     }
     .info-description {
         width: 100%;
+    }
+    .table-search {
+        width: 136px;
+        height: 327px;
+    }
+    .finance {
+        width: 1025px;
+    }
+    .finance-search {
+        margin-top: 36px;
+        width: 260.08px;
+        height: 34.08px;
+        border: 0.861111px solid #F7F7F7;
+        border-radius: 5.16667px;
     }
 }
