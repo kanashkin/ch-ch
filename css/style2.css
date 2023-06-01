@@ -2,6 +2,10 @@ html {
     line-height: normal;
 }
 
+p {
+    margin: 0;
+}
+
 .content {
     padding: 48px 0 96px 0;
 }
@@ -276,11 +280,10 @@ html {
 
 /* DOWN-BLOCK */
 
-.down-block {
+.down-block-wrapper {
+    padding: 42px 32px;
     margin-top: 24px;
     width: 100%;
-    padding: 42px 32px;
-    background-color: #fff;
     border: 1px solid #E4E4E4;
     border-radius: 20px;
 }
@@ -488,11 +491,11 @@ html {
     font-weight: 500;
 }
 
-::-webkit-scrollbar {
+.table-items::-webkit-scrollbar {
     width: 5px;
 }
 
-::-webkit-scrollbar-thumb {
+.table-items::-webkit-scrollbar-thumb {
     background-image: url('../images/personal-area/down-block/thumb.svg');
     background-repeat: no-repeat;
     background-position: 0.5px right;
