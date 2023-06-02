@@ -520,7 +520,7 @@
         line-height: 130%;
         padding: 7px 20px;
     }
-    .info-description {
+    .info-description, .dealer .info-description {
         width: 100%;
     }
     .table-search {
@@ -536,5 +536,11 @@
         height: 34.08px;
         border: 0.861111px solid #F7F7F7;
         border-radius: 5.16667px;
+    }
+    .dealer-wrapper {
+        display: block;
+    }
+    .dealer .right-block {
+        margin-top: 24px;
     }
 }
